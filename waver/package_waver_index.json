@@ -1,0 +1,57 @@
+{
+  "packages":
+  [
+    {
+      "name": "waver",
+      "maintainer": "usblink",
+      "websiteURL": "http:/usblink.com",
+      "email" : "support@usblink.com",
+      "platforms":
+      [
+        {
+          "name": "USBLink waver 1.0",
+          "architecture": "avr",
+          "version": "1.1.20",
+          "category": "Contributed",
+          "url": "http://usblink.com/Arduino/waver/waver.zip",
+          "archiveFileName": "waver.zip",
+          "checksum": "SHA-256:93EE5BC81C848050DDBA5A3CF021E8C0A7A56F9D790F7B3CA098A8AA5C2B881B",
+          "size": "175011",
+          "boards": [
+            {
+              "name": "waver"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ]
+    }    
+    
+  ]
+}
